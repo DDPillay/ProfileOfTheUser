@@ -1,0 +1,241 @@
+/*****************************Tags****************************/
+form
+{
+    display: inline-block;
+    padding: 15px;
+    box-shadow: 0 0 2px 2px;
+    position: relative;
+    left: 50%;
+}
+
+label
+{
+    display: inline-block;
+    margin: 5px;
+    background-color: rgba(255,255,255,2%);
+    left: 0;
+}
+
+input
+{
+    margin: 3px;
+    background-color: rgba(255,255,255,50%);
+    border: solid;
+    border-bottom-width: 1px;
+    border-style: inset;
+    border-color: rosybrown;
+    padding: 2px;
+    width: 179px;
+}
+
+h2
+{
+    display: inline-block;
+    text-align: center;
+    background-color: rgba(255,255,255,10%);
+    position: relative;
+    left: 50%;
+}
+
+button
+{
+    position: relative;
+    width: 80px;
+    left: 50%;
+    margin-top: 10px;
+    margin-left: -40px;
+    padding: 2px;
+}
+
+a
+{
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  margin-top: 10px;
+  padding: 2px;
+}
+
+p
+{
+  display: block;
+  text-align: center;
+}
+/*****************************Ids****************************/
+#formSignIn
+{
+  width: 275px;
+  margin-left: -137px;
+}
+
+#formSignUp
+{
+  width: 325px;
+  margin-left: -162px;
+}
+
+#dashboard
+{
+  width: 325px;
+  margin-left: -162px;
+}
+
+#formSignIn h2
+{
+  margin-left: -37px;
+}
+
+#formSignUp h2
+{
+  margin-left: -41px
+}
+
+#dashboard h2
+{
+  margin-left: -59px;
+}
+
+#formSignIn label
+{
+  width: 75px;
+}
+
+#formSignUp label
+{
+  width: 125px;
+}
+
+#dashboard label
+{
+  width: 125px;
+  text-align: left;
+}
+
+#formSignIn a
+{
+  width: 120px;
+  margin-left: -50px;
+}
+
+#formSignUp a
+{
+  width: 58px;
+  margin-left: -29px;
+}
+
+#dashboard a
+{
+  left: 0;
+}
+
+#dashboard button
+{
+  width: 110px;
+  left: 0;
+  margin-left: 0;
+}
+/****************************Media Classes*************************/
+@media (max-width: 300px)
+{
+   #formSignIn
+    {
+        display: block;
+        width: 90%;
+        position: absolute;
+        left: 0%;
+        margin-left: 0px;
+    }
+
+    #formSignIn h2
+    {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        left: 0;
+        margin-left: 0;
+    }
+
+    #formSignIn label
+    {
+        width: 100%;
+    }
+
+    #formSignIn input
+    {
+        width: 100%;
+    }
+
+    #formSignIn button
+    {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 350px)
+{
+   #formSignUp
+    {
+        display: block;
+        width: 90%;
+        position: absolute;
+        left: 0%;
+        margin-left: 0px;
+    }
+
+    #formSignUp h2
+    {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        left: 0;
+        margin-left: 0;
+    }
+
+    #formSignUp label
+    {
+        width: 100%;
+    }
+
+    #formSignUp input
+    {
+        width: 100%;
+    }
+
+    #formSignUp button
+    {
+        margin-bottom: 15px;
+    }
+
+    #dashboard
+     {
+         display: block;
+         width: 90%;
+         position: absolute;
+         left: 0%;
+         margin-left: 0px;
+     }
+
+     #dashboard h2
+     {
+         display: inline-block;
+         width: 100%;
+         text-align: center;
+         left: 0;
+         margin-left: 0;
+     }
+
+     #dashboard label
+     {
+         width: 100%;
+     }
+
+     #dashboard input
+     {
+         width: 100%;
+     }
+
+     #dashboard button
+     {
+         margin-bottom: 15px;
+     }
+}
